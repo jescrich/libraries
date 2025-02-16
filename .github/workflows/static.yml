@@ -36,4 +36,4 @@ jobs:
       - name: Upload artifact
         run: |
           yarn
-          yarn deploy
+          USE_SSH=true yarn deploy
