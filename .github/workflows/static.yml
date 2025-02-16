@@ -34,4 +34,6 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
-        run: yarn deploy
+        run: |
+          yarn
+          yarn deploy
