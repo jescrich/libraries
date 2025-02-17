@@ -8,18 +8,16 @@ const config: Config = {
 	title: "@jescrich",
 	tagline: "José Escrich - Libraries",
 	favicon: "img/favicon.ico",
-
-	// Set the production url of your site here
-	url: "https://docs.joseescrich.com",
+	url: "https://jescrich.github.io/",
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: "/docs",
+	baseUrl: "/libraries",
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
 	organizationName: "jescrich", // Usually your GitHub org/user name.
 	// projectName: 'docusaurus', // Usually your repo name.
-  projectName: 'jescrich', // Usually your repo name.
+  	projectName: 'jescrich', // Usually your repo name.
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 
@@ -35,16 +33,10 @@ const config: Config = {
 		[
 			"classic",
 			{
-				googleAnalytics: {
-					trackingID: "G-5QENEB8FM0",
-					anonymizeIP: true,
-				},
-
 				gtag: {
 					trackingID: "G-5QENEB8FM0",
 					anonymizeIP: true,
 				},
-
 				docs: {
 					sidebarPath: "./sidebars.ts",
 					// Please change this to your repo.
@@ -75,6 +67,9 @@ const config: Config = {
 	],
 	plugins: ["@docusaurus/theme-live-codeblock"],
 	themeConfig: {
+		colorMode: {
+			defaultMode: 'dark',
+		},
 		liveCodeBlock: {
 			/**
 			 * The position of the live playground, above or under the editor
