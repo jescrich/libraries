@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknestjs_toolkit_docs=self.webpackChunknestjs_toolkit_docs||[]).push([[975],{7690:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"URN","slug":"/category/urn","permalink":"/libraries/docs/category/urn","sidebar":"tutorialSidebar","navigation":{"next":{"title":"Quickstart","permalink":"/libraries/docs/urn/intro"}}}}')}}]);

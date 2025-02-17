@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknestjs_toolkit_docs=self.webpackChunknestjs_toolkit_docs||[]).push([[2751],{6517:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"NestJS","slug":"/category/nestjs","permalink":"/docs/docs/category/nestjs","sidebar":"tutorialSidebar","navigation":{"next":{"title":"Introduction","permalink":"/docs/docs/nestjs-essentials/intro"}}}}')}}]);
