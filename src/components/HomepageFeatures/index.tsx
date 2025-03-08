@@ -8,6 +8,8 @@ type FeatureItem = {
     title: string;
     Svg: React.ComponentType<React.ComponentProps<'svg'>>;
     description: ReactNode;
+    github: string;
+    doc: string;
 };
 
 const FeatureList: FeatureItem[] = [
@@ -21,6 +23,18 @@ const FeatureList: FeatureItem[] = [
                 This package allows you to compose, validate, parse, transform, and manipulate URNs efficiently. It supports attribute management, UUID generation, normalization, and extensibility for custom namespace validation.
             </>
         ),
+        github: "https://github.com/jescrich/urn",
+        doc:"./docs/urn/intro"
+    },
+    {
+        title: 'NestJs Workflow',
+        Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+        description: (
+            <>
+                 An intuitive workflow management tool built specifically for NestJS and Node.js applications. It allows developers and teams to clearly define, manage, and execute workflows using a straightforward, declarative syntax. The result? Clearer code, better governance, and significantly improved maintainability.            </>
+        ),
+        github: "https://github.com/jescrich/nestjs-workflow",
+        doc: "./docs/nestjs-workflow/intro"
     },
 
     // {
@@ -44,7 +58,7 @@ const FeatureList: FeatureItem[] = [
     //     ),
     // },
 ];
-function Feature({ title, Svg, description }: FeatureItem) {
+function Feature({ title, Svg, description, github,doc }: FeatureItem) {
     return (
         <div className={clsx('col col--4')}>
             {/* <div className="text--center">
@@ -57,12 +71,12 @@ function Feature({ title, Svg, description }: FeatureItem) {
             <div className="text--center margin-top--md">
                 <Link
                     className="button button--secondary button--lg"
-                    to="./docs/urn/intro">
+                    to={doc}>
                     Documentation
                 </Link>
                 <Link
                     className="button button--secondary button--lg margin-left--md"
-                    to="https://github.com/jescrich/urn#readme">
+                    to={github}>
                     GitHub
                 </Link>
             </div>

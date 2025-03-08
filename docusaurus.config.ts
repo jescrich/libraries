@@ -83,7 +83,7 @@ const config: Config = {
 			title: "@jescrich",
 			logo: {
 				alt: "@jescrich libraries Logo",
-				src: "https://media.licdn.com/dms/image/v2/D4D03AQHxXbXeM_z1DA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727299483714?e=1744848000&v=beta&t=c3tDQ1OEo12VxMSINiE_uwv6opc5Pq_neWDj-wySG_I",
+				src: "https://joseescrich.com/20250117_160050.png",
 			},
 			items: [
 				{
