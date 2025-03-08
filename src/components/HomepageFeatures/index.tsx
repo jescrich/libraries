@@ -34,7 +34,7 @@ const FeatureList: FeatureItem[] = [
                  An intuitive workflow management tool built specifically for NestJS and Node.js applications. It allows developers and teams to clearly define, manage, and execute workflows using a straightforward, declarative syntax. The result? Clearer code, better governance, and significantly improved maintainability.            </>
         ),
         github: "https://github.com/jescrich/nestjs-workflow",
-        doc: "./docs/nestjs-workflow/intro"
+        doc: "./docs/category/nestjs-workflow"
     },
 
     // {
