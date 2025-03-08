@@ -6,23 +6,23 @@ sidebar_label: Quickstart
 # Quickstart   
 ## Implementing Order Processing with NestJS Workflow
 
-This guide will walk you through setting up the NestJS Workflow module to manage the state transitions of an order processing system.
+This guide will walk you through setting up the NestJS Workflow module to manage the state transitions of an order processing system.
 
 ## Prerequisites
 
-- A NestJS application set up with TypeScript.
-- Node.js and npm installed.
+- A NestJS application set up with TypeScript.
+- Node.js and npm installed.
 
 ## Step 1: Install the NestJS Workflow Module
 
-Install the module using npm:
+Install the module using npm:
 
 ```bash
 npm install @jescrich/nestjs-workflow
 ```
 
 
-Or with yarn:
+Or with yarn:
 
 ```bash
 yarn add @jescrich/nestjs-workflow
@@ -30,7 +30,7 @@ yarn add @jescrich/nestjs-workflow
 
 ## Step 2: Define the Order Entity and Enums
 
-Create the `Order` entity along with enums for order events and statuses:
+Create the `Order` entity along with enums for order events and statuses:
 
 ```typescript
 // order.model.ts
@@ -62,7 +62,7 @@ export class Order {
 
 ## Step 3: Define the Workflow
 
-Create a workflow definition that outlines the states and transitions for the order:
+Create a workflow definition that outlines the states and transitions for the order:
 
 ```typescript
 // order.workflow.ts
@@ -122,7 +122,7 @@ export const orderWorkflowDefinition: WorkflowDefinition<Order, any, OrderEvent,
 
 ## Step 4: Register the Workflow Module
 
-Import and register the `WorkflowModule` in your NestJS application module:
+Import and register the `WorkflowModule` in your NestJS application module:
 
 ```typescript
 // app.module.ts
@@ -149,7 +149,7 @@ export class AppModule {}
 
 ## Step 5: Utilize the Workflow in a Service
 
-Inject the workflow into your service and define methods to handle order events:
+Inject the workflow into your service and define methods to handle order events:
 
 ```typescript
 // order.service.ts
@@ -181,7 +181,7 @@ export class OrderService {
 
 ## Step 6: Implement Class-Based Actions with Decorators
 
-For more complex workflows, you can define actions using decorators:
+For more complex workflows, you can define actions using decorators:
 
 ```typescript
 // order.actions.ts
@@ -208,7 +208,7 @@ export class OrderActions {
 ```
 
 
-Ensure to register these action classes as providers in your module:
+Ensure to register these action classes as providers in your module:
 
 ```typescript
 // app.module.ts
@@ -237,4 +237,4 @@ export class AppModule {}
 
 ## Conclusion
 
-By following these steps, you've set up the NestJS Workflow module to manage the state transitions of an order processing system. This structured approach enhances code maintainability and aligns with best practices for enterprise application development.
+By following these steps, you've set up the NestJS Workflow module to manage the state transitions of an order processing system. This structured approach enhances code maintainability and aligns with best practices for enterprise application development.
