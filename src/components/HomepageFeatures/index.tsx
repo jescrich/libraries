@@ -10,12 +10,15 @@ type FeatureItem = {
     description: ReactNode;
     github: string;
     doc: string;
+    logo?: string;
 };
 
 const FeatureList: FeatureItem[] = [
     {
         title: 'URN',
         Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+        
+        logo: "https://joseescrich.com/logos/urn.png",
         description: (
             <>
                 A powerful, extensible utility for working with Uniform Resource Names (URNs).
@@ -24,14 +27,15 @@ const FeatureList: FeatureItem[] = [
             </>
         ),
         github: "https://github.com/jescrich/urn",
-        doc:"./docs/urn/intro"
+        doc: "./docs/urn/intro"
     },
     {
         title: 'NestJs Workflow',
         Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+        logo: "https://joseescrich.com/logos/nestjs-workflow.png",
         description: (
             <>
-                 An intuitive workflow management tool built specifically for NestJS and Node.js applications. It allows developers and teams to clearly define, manage, and execute workflows using a straightforward, declarative syntax. The result? Clearer code, better governance, and significantly improved maintainability.            </>
+                An intuitive workflow management tool built specifically for NestJS and Node.js applications. It allows developers and teams to clearly define, manage, and execute workflows using a straightforward, declarative syntax. The result? Clearer code, better governance, and significantly improved maintainability.            </>
         ),
         github: "https://github.com/jescrich/nestjs-workflow",
         doc: "./docs/category/nestjs-workflow"
@@ -58,12 +62,15 @@ const FeatureList: FeatureItem[] = [
     //     ),
     // },
 ];
-function Feature({ title, Svg, description, github,doc }: FeatureItem) {
+function Feature({ title, Svg, description, github, doc, logo }: FeatureItem) {
     return (
         <div className={clsx('col col--4')}>
             {/* <div className="text--center">
                 <Svg className={styles.featureSvg} role="img" />
             </div> */}
+            <div className="text--center">
+                <img src={logo} alt="logo" width="200" />
+            </div>
             <div className="text--center padding-horiz--md">
                 <Heading as="h3">{title}</Heading>
                 <p>{description}</p>
