@@ -1,29 +1,29 @@
 ---
 slug: welcome
-title: Welcome
-authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
+title: Welcome to @jescrich Libraries
+authors: [jescrich]
+tags: [nestjs, typescript, enterprise]
 ---
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
+Welcome to the @jescrich libraries documentation site! This is where you'll find comprehensive documentation for enterprise-grade NestJS libraries and utilities.
 
-Here are a few tips you might find useful.
+Here you'll discover powerful tools for building robust, scalable applications:
 
 <!-- truncate -->
 
-Simply add Markdown files (or folders) to the `blog` directory.
+## Featured Libraries
 
-Regular blog authors can be added to `authors.yml`.
+### NestJS Kafka Client
+Enterprise-grade Kafka integration with advanced pressure management, intelligent batch processing, and built-in idempotency. Perfect for high-throughput distributed systems.
 
-The blog post date can be extracted from filenames, such as:
+### URN Utilities
+A powerful, extensible utility for working with Uniform Resource Names (URNs) with support for validation, parsing, transformation, and manipulation.
 
-- `2019-05-30-welcome.md`
-- `2019-05-30-welcome/index.md`
+### NestJS Workflow
+An intuitive workflow management tool built specifically for NestJS applications, enabling clear definition and execution of complex business processes.
 
-A blog post folder can be convenient to co-locate blog post images:
+## What's Next?
 
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
+Explore the documentation for each library to get started with production-ready solutions that will accelerate your development and improve your application's reliability.
 
-The blog supports tags as well!
-
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+**Stay tuned for more libraries and updates!**

@@ -1,19 +1,39 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+nestjs:
+  label: NestJS
+  permalink: /nestjs
+  description: NestJS framework related posts and tutorials
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+kafka:
+  label: Kafka
+  permalink: /kafka
+  description: Apache Kafka integration and best practices
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+typescript:
+  label: TypeScript
+  permalink: /typescript
+  description: TypeScript development tips and patterns
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+microservices:
+  label: Microservices
+  permalink: /microservices
+  description: Microservices architecture and patterns
+
+workflow:
+  label: Workflow
+  permalink: /workflow
+  description: Workflow management and automation
+
+urn:
+  label: URN
+  permalink: /urn
+  description: Uniform Resource Names utilities and patterns
+
+enterprise:
+  label: Enterprise
+  permalink: /enterprise
+  description: Enterprise-grade solutions and best practices
+
+performance:
+  label: Performance
+  permalink: /performance
+  description: Performance optimization and benchmarking

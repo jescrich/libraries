@@ -1,24 +1,43 @@
 ---
-slug: mdx-blog-post
-title: MDX Blog Post
-authors: [slorber]
-tags: [docusaurus]
+slug: interactive-documentation
+title: Interactive Documentation with MDX
+authors: [jescrich]
+tags: [typescript, workflow]
 ---
 
-Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).
+Creating interactive documentation helps developers understand complex concepts through hands-on examples. This post demonstrates how to build engaging documentation using MDX.
 
 :::tip
 
-Use the power of React to create interactive blog posts.
+Interactive examples make complex library features more accessible to developers.
 
 :::
 
 {/* truncate */}
 
-For example, use JSX to create an interactive button:
+## Interactive Code Examples
 
-```js
-<button onClick={() => alert('button clicked!')}>Click me!</button>
+Here's an interactive example of URN validation:
+
+```typescript
+import { URN } from '@jescrich/urn';
+
+// Try different URN formats
+const urn = new URN('urn:example:resource:123');
+console.log(urn.isValid()); // true
 ```
 
-<button onClick={() => alert('button clicked!')}>Click me!</button>
+<button onClick={() => {
+  const urn = 'urn:example:resource:' + Math.floor(Math.random() * 1000);
+  alert(`Generated URN: ${urn}`);
+}}>Generate Random URN</button>
+
+## Benefits of Interactive Documentation
+
+Interactive documentation provides several advantages:
+
+1. **Immediate Feedback**: Developers can see results instantly
+2. **Learning by Doing**: Hands-on examples improve understanding
+3. **Reduced Friction**: No need to set up local environments for testing
+
+This approach is particularly effective for demonstrating library APIs and complex configuration options.
