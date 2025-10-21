@@ -468,4 +468,4 @@ KAFKA_HEALTH_CHECK_INTERVAL=30000
 
 - [Learn Best Practices](./best-practices)
 - [Troubleshooting Guide](./troubleshooting)
-- [Back to Overview](./index)
+- [Back to Overview](./)

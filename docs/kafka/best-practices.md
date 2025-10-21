@@ -655,4 +655,4 @@ export class GoodKafkaService {
 
 - [Troubleshooting Guide](./troubleshooting)
 - [Configuration Reference](./configuration)
-- [Back to Overview](./index)
+- [Back to Overview](./)

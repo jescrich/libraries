@@ -572,4 +572,4 @@ export class TestConsumer {
 
 - [Review Best Practices](./best-practices)
 - [Check Configuration](./configuration)
-- [Back to Overview](./index)
+- [Back to Overview](./)
