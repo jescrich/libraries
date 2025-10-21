@@ -30,6 +30,18 @@ const FeatureList: FeatureItem[] = [
         doc: "./docs/urn/intro"
     },
     {
+        title: 'NestJS Kafka Client',
+        Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+        logo: require('@site/static/img/nestjs-kafka-client.png').default,
+        description: (
+            <>
+                Enterprise-grade NestJS Kafka integration with advanced pressure management, intelligent batch processing, built-in idempotency, and key-based grouping. Delivers 3-4x throughput improvement with automatic backpressure handling and zero-configuration production readiness.
+            </>
+        ),
+        github: "https://github.com/jescrich/nestjs-kafka-client",
+        doc: "./docs/kafka"
+    },
+    {
         title: 'NestJs Workflow',
         Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
         logo: "https://joseescrich.com/logos/nestjs-workflow.png",
@@ -63,13 +75,28 @@ const FeatureList: FeatureItem[] = [
     // },
 ];
 function Feature({ title, Svg, description, github, doc, logo }: FeatureItem) {
+    const getLogoClass = () => {
+        if (title === 'NestJS Kafka Client') return styles.kafkaLogo;
+        return styles.logo;
+    };
+    
+    const getLogoWidth = () => {
+        if (title === 'NestJS Kafka Client') return "300";
+        return "200";
+    };
+    
     return (
         <div className={clsx('col col--4')}>
             {/* <div className="text--center">
                 <Svg className={styles.featureSvg} role="img" />
             </div> */}
             <div className="text--center">
-                <img src={logo} alt="logo" width="200" />
+                <img 
+                    src={logo} 
+                    alt={`${title} logo`} 
+                    width={getLogoWidth()} 
+                    className={getLogoClass()} 
+                />
             </div>
             <div className="text--center padding-horiz--md">
                 <Heading as="h3">{title}</Heading>
