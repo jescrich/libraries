@@ -1,5 +1,8 @@
 ---
 sidebar_position: 3
+title: Configuration Reference - NestJS Kafka Client
+description: Complete configuration guide for NestJS Kafka client including producer settings, consumer options, SSL/SASL authentication, environment variables, and production tuning.
+keywords: [Kafka Configuration, NestJS Configuration, Producer Settings, Consumer Options, SSL Configuration, SASL Authentication, Environment Variables]
 ---
 # Configuration
 

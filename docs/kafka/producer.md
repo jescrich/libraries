@@ -1,6 +1,12 @@
 ---
 sidebar_position: 4
 ---
+---
+title: Kafka Producer - High-Performance Message Publishing
+description: Learn to use the NestJS Kafka producer with intelligent connection management, batch operations, transactions, and front pressure handling for enterprise applications.
+keywords: [Kafka Producer, NestJS Producer, Message Publishing, Batch Operations, Transactions, Front Pressure, Circuit Breaker]
+---
+
 # Kafka Producer
 
 The KafkaClient provides high-performance message production with intelligent connection management and automatic batching capabilities.

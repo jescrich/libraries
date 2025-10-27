@@ -5,8 +5,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-	title: "@jescrich",
-	tagline: "José Escrich - Libraries",
+	title: "José Escrich Libraries",
+	tagline: "Enterprise-grade NestJS libraries: Kafka Client, URN utilities, and Workflow management tools for production applications",
 	favicon: "img/favicon.ico",
 	url: "https://jescrich.github.io/",
 	// Set the /<baseUrl>/ pathname under which your site is served
@@ -65,7 +65,17 @@ const config: Config = {
 			} satisfies Preset.Options,
 		],
 	],
-	plugins: ["@docusaurus/theme-live-codeblock"],
+	plugins: [
+		"@docusaurus/theme-live-codeblock",
+		[
+			'@docusaurus/plugin-sitemap',
+			{
+				changefreq: 'weekly',
+				priority: 0.5,
+				ignorePatterns: ['/tags/**'],
+				filename: 'sitemap.xml',
+			},
+		],
 	themeConfig: {
 		colorMode: {
 			defaultMode: 'dark',
@@ -79,6 +89,14 @@ const config: Config = {
 		},
 		// Replace with your project's social card
 		image: "img/docusaurus-social-card.jpg",
+		metadata: [
+			{name: 'keywords', content: 'NestJS, Kafka, URN, Workflow, TypeScript, Node.js, Enterprise, Libraries, José Escrich'},
+			{name: 'author', content: 'José Escrich'},
+			{property: 'og:type', content: 'website'},
+			{property: 'og:site_name', content: 'José Escrich Libraries'},
+			{name: 'twitter:card', content: 'summary_large_image'},
+			{name: 'twitter:creator', content: '@jescrich'},
+		],
 		navbar: {
 			title: "@jescrich",
 			logo: {

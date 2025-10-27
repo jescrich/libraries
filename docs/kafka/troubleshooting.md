@@ -1,3 +1,9 @@
+---
+title: Troubleshooting Guide - NestJS Kafka Issues
+description: Comprehensive troubleshooting guide for NestJS Kafka client covering connection issues, consumer lag, memory problems, SSL/SASL errors, and performance optimization.
+keywords: [Kafka Troubleshooting, NestJS Debugging, Connection Issues, Consumer Lag, Memory Issues, SSL Errors, SASL Problems, Performance Issues]
+---
+
 # Troubleshooting
 
 Common issues and solutions when using the NestJS Kafka Client.

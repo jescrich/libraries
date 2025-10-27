@@ -1,3 +1,9 @@
+---
+title: Advanced Features - Enterprise Kafka Capabilities
+description: Explore advanced NestJS Kafka features including pressure management, idempotency, DLQ handling, health monitoring, graceful shutdown, and performance optimization.
+keywords: [Kafka Advanced Features, Pressure Management, Idempotency, Dead Letter Queue, Health Monitoring, Performance Optimization, Enterprise Kafka]
+---
+
 # Advanced Features
 
 This section covers the enterprise-grade features that make this Kafka client suitable for production environments.

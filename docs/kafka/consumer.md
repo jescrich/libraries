@@ -1,6 +1,12 @@
 ---
 sidebar_position: 3
 ---
+---
+title: Kafka Consumer - Enterprise Message Processing
+description: Master NestJS Kafka consumers with batch processing, key-based grouping, backpressure management, idempotency, and automatic error handling with DLQ support.
+keywords: [Kafka Consumer, NestJS Consumer, Batch Processing, Key Grouping, Backpressure, Idempotency, Dead Letter Queue, Message Processing]
+---
+
 # Kafka Consumer
 
 The Consumer decorator provides enterprise-grade message consumption with advanced batch processing, key-based grouping, and automatic pressure management.

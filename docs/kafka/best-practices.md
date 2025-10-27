@@ -1,3 +1,9 @@
+---
+title: Best Practices - Production Kafka with NestJS
+description: Production-ready best practices for NestJS Kafka applications including message design, consumer patterns, performance optimization, security, and deployment strategies.
+keywords: [Kafka Best Practices, NestJS Best Practices, Production Kafka, Performance Optimization, Security, Deployment, Message Design]
+---
+
 # Best Practices
 
 This guide covers production-ready best practices for using the NestJS Kafka Client effectively and safely.

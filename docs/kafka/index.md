@@ -1,3 +1,9 @@
+---
+title: NestJS Kafka Client - Enterprise-Grade Integration
+description: Production-ready NestJS Kafka module with intelligent batch processing, backpressure management, idempotency, and key-based grouping. 3-4x throughput improvement over basic implementations.
+keywords: [NestJS, Kafka, KafkaJS, Enterprise, Batch Processing, Backpressure, Idempotency, TypeScript, Microservices, Message Queue]
+---
+
 # NestJS Kafka Client
 
 A production-ready NestJS module for Kafka client and consumer functionality built on top of [kafkajs](https://kafka.js.org/). This library provides enterprise-grade features including intelligent batch processing, idempotency guarantees, key-based grouping, and automatic pressure management.

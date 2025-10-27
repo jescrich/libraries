@@ -17,7 +17,7 @@ const FeatureList: FeatureItem[] = [
     {
         title: 'URN',
         Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-        
+
         logo: "https://joseescrich.com/logos/urn.png",
         description: (
             <>
@@ -79,23 +79,23 @@ function Feature({ title, Svg, description, github, doc, logo }: FeatureItem) {
         if (title === 'NestJS Kafka Client') return styles.kafkaLogo;
         return styles.logo;
     };
-    
+
     const getLogoWidth = () => {
         if (title === 'NestJS Kafka Client') return "300";
         return "200";
     };
-    
+
     return (
         <div className={clsx('col col--4')}>
             {/* <div className="text--center">
                 <Svg className={styles.featureSvg} role="img" />
             </div> */}
             <div className="text--center">
-                <img 
-                    src={logo} 
-                    alt={`${title} logo`} 
-                    width={getLogoWidth()} 
-                    className={getLogoClass()} 
+                <img
+                    src={logo}
+                    alt={`${title} logo`}
+                    width={getLogoWidth()}
+                    className={getLogoClass()}
                 />
             </div>
             <div className="text--center padding-horiz--md">

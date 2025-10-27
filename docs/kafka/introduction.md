@@ -1,6 +1,9 @@
 ---
 sidebar_position: 1
 sidebar_label: Introduction
+title: Enterprise Kafka Integration - Technical Deep Dive
+description: In-depth analysis of @jescrich/nestjs-kafka-client featuring backpressure management, front pressure handling, intelligent batch processing, and production benchmarks.
+keywords: [Kafka, NestJS, Backpressure, Front Pressure, Batch Processing, Enterprise, Performance, Benchmarks, Production, Microservices]
 ---
 # Introduction
 

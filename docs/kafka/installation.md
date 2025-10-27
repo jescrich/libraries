@@ -1,6 +1,12 @@
 ---
 sidebar_position: 2
 ---
+---
+title: Installation & Setup - NestJS Kafka Client
+description: Complete installation and setup guide for @jescrich/nestjs-kafka-client. Learn how to configure enterprise Kafka integration with SSL, SASL authentication, and production settings.
+keywords: [NestJS Kafka Installation, Kafka Setup, SSL Configuration, SASL Authentication, Production Configuration]
+---
+
 # Installation & Setup
 
 ## Installation
