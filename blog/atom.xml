@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jescrich.github.io/libraries/blog</id>
-    <title>@jescrich Blog</title>
+    <title>José Escrich Libraries Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jescrich.github.io/libraries/blog"/>
-    <subtitle>@jescrich Blog</subtitle>
+    <subtitle>José Escrich Libraries Blog</subtitle>
     <icon>https://jescrich.github.io/libraries/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome to @jescrich Libraries]]></title>
