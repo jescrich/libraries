@@ -76,6 +76,7 @@ const config: Config = {
 				filename: 'sitemap.xml',
 			},
 		],
+	],
 	themeConfig: {
 		colorMode: {
 			defaultMode: 'dark',
