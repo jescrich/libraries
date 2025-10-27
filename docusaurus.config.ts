@@ -62,21 +62,16 @@ const config: Config = {
 				theme: {
 					customCss: "./src/css/custom.css",
 				},
+				sitemap: {
+					changefreq: 'weekly',
+					priority: 0.5,
+					ignorePatterns: ['/tags/**'],
+					filename: 'sitemap.xml',
+				},
 			} satisfies Preset.Options,
 		],
 	],
-	plugins: [
-		"@docusaurus/theme-live-codeblock",
-		[
-			'@docusaurus/plugin-sitemap',
-			{
-				changefreq: 'weekly',
-				priority: 0.5,
-				ignorePatterns: ['/tags/**'],
-				filename: 'sitemap.xml',
-			},
-		],
-	],
+	plugins: ["@docusaurus/theme-live-codeblock"],
 	themeConfig: {
 		colorMode: {
 			defaultMode: 'dark',
